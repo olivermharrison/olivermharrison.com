@@ -1,7 +1,15 @@
 header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height:4rem;
+
   background-color: rgba(203, 203, 214, 0.9);
   font-size: 2rem;
-  padding:0.5rem;
+}
+
+main {
+  margin-top: 4rem;
 }
 
 nav {
