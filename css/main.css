@@ -43,11 +43,21 @@ p {
 }
 
 a {
-  color: #4141ce;
+  color: #337ab7;
   text-decoration: none;
 }
 a:visited{
-  color: #4141ce;
+  color: #337ab7;
+}
+
+button {
+  background-color: white;
+  letter-spacing: 2px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  color: #337ab7;
 }
 
 
