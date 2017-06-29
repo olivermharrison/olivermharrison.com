@@ -1,15 +1,12 @@
 header {
   position: fixed;
   top: 0;
-  width: 100vw;
-  height:4rem;
+  width: 100%;
 
   background-color: rgba(203, 203, 214, 0.9);
   font-size: 2rem;
-}
 
-main {
-  margin-top: 4rem;
+  height:20vh;
 }
 
 nav {

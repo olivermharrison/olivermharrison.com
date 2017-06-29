@@ -7,4 +7,77 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 14px;
+  color:#333;
+}
+
+/* Rules for tablets and bigger viewports */
+@media (min-width: 768px) {
+
+}
+
+main {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 1rem;
+
+  font-weight: 400;
+}
+
+section {
+  /*margin: 1rem;*/
+}
+
+p {
+  font-size: 1rem;
+    max-width: 640px;
+    margin: auto;
+
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+
+/* center vertically */
+.vert-outer {
+  display: table;
+}
+.vert-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#home {
+  height: 80vh;
+  margin-top: 20vh;
+}
+
+
+.jumbo {
+    background-color: #e6e6ef;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.jumbo > p {
+  font-size: 1.2em;
+}
+
+.jumbo > img {
+  max-width: 12rem;
+  width: 80%;
+  border-radius: 12rem;
+  padding: 1rem;
+}
+
+a {
+  color: #4141ce;
+  text-decoration: none;
+}
+a:visited{
+  color: #4141ce;
 }
