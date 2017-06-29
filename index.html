@@ -14,17 +14,16 @@
     <title>Oliver Harrison</title>
 
   </head>
-  <body>
+  <body id="page-top">
 
     <header class="vert-outer">
       <div class="vert-middle">
         <div>Oliver Michael Harrison</div>
         <nav>
-          <span>home</span>
-          <span>about</span>
-          <span>projects</span>
-          <span>resume</span>
-          <span>contact</span>
+          <a data-scroll href="#page-top">home</a>
+          <a data-scroll href="#projects">projects</a>
+          <a data-scroll href="#resume">resume</a>
+          <a data-scroll href="#contact">contact</a>
         </nav>
       </div>
 
@@ -42,29 +41,34 @@
         </div>
       </section>
 
-      <section>
+      <section id="projects">
         <div class="page-title">
           <h2>Projects</h2>
           <hr />
         </div>
 
+        <div class="project">
+          <h3>Burrow</h3>
+        </div>
+
       </section>
 
 
-      <section>
+      <section id="resume">
         <div class="page-title">
           <h2>Resume</h2>
           <hr />
         </div>
 
         <a href="http://olivermharrison.com/pdf/OliverHarrison_CV_2017.pdf" target="_blank"><button>OPEN PDF</button></a>
+        <br /><br /><br />
         <img src="img/cv.png" alt="Resume"/>
       </section>
 
 
-      <section>
+      <section id="contact">
         <div class="page-title">
-          <h2>Contacts</h2>
+          <h2>Contact</h2>
           <hr />
         </div>
 
@@ -75,6 +79,18 @@
 
     </main>
 
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+          // Speed & Easing
+          speed: 500, // Integer. How fast to complete the scroll in milliseconds
+          offset: function(){ return window.innerHeight * 0.2 + 20;}, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+          easing: 'easeInOutCubic', // Easing pattern to use
 
+          // Callback API
+          before: function (anchor, toggle) {}, // Function to run before scrolling starts
+          after: function (anchor, toggle) {} // Function to run after scrolling completes
+          });
+    </script>
   </body>
 </html>
