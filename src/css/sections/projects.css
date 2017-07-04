@@ -17,12 +17,11 @@
 
 .project img {
   float: left;
-  width:5em;
+  min-width: 7em;
   border-radius: 50%;
 }
 
 .project-text {
   text-align: left;
   padding-left: 20px;
-  font-size: 0.9em;
 }
