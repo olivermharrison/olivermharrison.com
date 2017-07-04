@@ -1,17 +1,24 @@
 .project {
-  max-width: 340px;
-  margin: auto;
+  max-width: 85%;
+  margin: 5em auto;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .project {
+    max-width: 400px;
+  }
+}
+
+.project h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .project img {
   float: left;
   width:5em;
   border-radius: 50%;
-}
-
-.project-content-height {
-  height:5em;
-  margin: 1em 0em;
 }
 
 .project-text {

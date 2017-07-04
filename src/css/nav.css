@@ -10,12 +10,21 @@ header {
 }
 
 nav {
-  font-size: 1rem;
   padding-top: 0.2rem;
+}
+
+.name {
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 nav > a {
   margin: 0px 0.2rem;
+  color: #3e3e3e;
+  text-transform: uppercase;
+}
+nav > a:visited {
+  color: #3e3e3e;
 }
 
 /* Rules for tablets and bigger viewports */
