@@ -9,11 +9,13 @@
 
     <!-- LINKS: fonts & stylesheets -->
 
-    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" type="text/css" href="css/resets.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/pages.css">
+    <!-- endbuild -->
 
     <title>Oliver Harrison</title>
 
@@ -112,18 +114,9 @@
 
     </main>
 
+    <!-- build:js js/main.js -->
     <script src="js/smooth-scroll.min.js"></script>
-    <script>
-      smoothScroll.init({
-          // Speed & Easing
-          speed: 500, // Integer. How fast to complete the scroll in milliseconds
-          offset: function(){ return window.innerHeight * 0.2 + 20;}, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-          easing: 'easeInOutCubic', // Easing pattern to use
-
-          // Callback API
-          before: function (anchor, toggle) {}, // Function to run before scrolling starts
-          after: function (anchor, toggle) {} // Function to run after scrolling completes
-          });
-    </script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
