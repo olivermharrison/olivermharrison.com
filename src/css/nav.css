@@ -3,10 +3,11 @@ header {
   top: 0;
   width: 100%;
 
-  background-color: rgba(203, 203, 214, 0.9);
+  background-color: rgba(62, 62, 62, 0.98);
   font-size: 2rem;
 
   height:20vh;
+  color: #ececec;
 }
 
 nav {
@@ -20,11 +21,11 @@ nav {
 
 nav > a {
   margin: 0px 0.2rem;
-  color: #3e3e3e;
+  color: #ababab;
   text-transform: uppercase;
 }
 nav > a:visited {
-  color: #3e3e3e;
+  color: #ababab;
 }
 
 /* Rules for tablets and bigger viewports */
