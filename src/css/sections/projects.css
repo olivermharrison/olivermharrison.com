@@ -1,0 +1,21 @@
+.project {
+  max-width: 340px;
+  margin: auto;
+}
+
+.project img {
+  float: left;
+  width:5em;
+  border-radius: 50%;
+}
+
+.project-content-height {
+  height:5em;
+  margin: 1em 0em;
+}
+
+.project-text {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 0.9em;
+}
