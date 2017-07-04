@@ -32,14 +32,19 @@ h1 {
   font-size: 2em;
 }
 h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.25em;
 }
 
 p {
   font-size: 1rem;
   max-width: 640px;
   margin: auto;
-
 }
 
 a {
@@ -50,6 +55,10 @@ a:visited{
   color: #337ab7;
 }
 
+hr {
+  margin: 2px 0px;
+}
+
 button {
   background-color: white;
   letter-spacing: 2px;
@@ -58,6 +67,10 @@ button {
   cursor: pointer;
   padding: 5px;
   color: #337ab7;
+}
+
+.clear {
+  clear: both;
 }
 
 
