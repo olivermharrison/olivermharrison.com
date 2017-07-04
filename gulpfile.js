@@ -10,12 +10,17 @@ gulp.task('default', function() {
 
 });
 
+gulp.task('watch', function() {
+  browserSync.reload;
+});
+
 gulp.task('serve', function() {
   browserSync.init({
     server: {
-      baseDir: 'src'
+      baseDir: './src'
     },
-  })
+  });
+  gulp.watch("src/**").on("change", browserSync.reload);
 });
 
 gulp.task('build', ['clean'], function() {
