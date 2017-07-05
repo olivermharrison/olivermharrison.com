@@ -76,6 +76,10 @@ a:visited{
   color: #337ab7;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 hr {
   margin: 2px 0px;
 }
