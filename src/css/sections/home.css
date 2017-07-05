@@ -4,9 +4,13 @@
 }
 
 .jumbo {
-    background-color: #e6e6ef;
+    /*background-color: #e6e6ef; */
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.jumbo > h1 {
+  text-transform: uppercase;
 }
 
 .jumbo > p {
