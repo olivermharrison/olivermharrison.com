@@ -82,12 +82,24 @@ hr {
 
 button {
   background-color: white;
-  letter-spacing: 2px;
+  letter-spacing: 0.2em;
   border: 1px solid #c1c1c1;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
   color: #337ab7;
+  text-transform: uppercase;
+  width: 15em;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+button:hover {
+  border-color: #969696;
+}
+
+button:focus {
+  outline: 0;
 }
 
 .clear {
