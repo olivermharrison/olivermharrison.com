@@ -25,9 +25,13 @@ gulp.task('serve', function() {
 
 gulp.task('build', ['clean'], function() {
 
+  // images
   gulp.src('src/img/**/*.+(png|jpg|gif|svg)')
   .pipe(gulp.dest('build/img/'));
+  gulp.src('src/favicon.png')
+  .pipe(gulp.dest('build'))
 
+  // html, css and js
   gulp.src('src/index.html')
     .pipe(useref())
     .pipe(gulpif('*.js', uglify()))
