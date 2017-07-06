@@ -4,6 +4,7 @@ var gulpif = require('gulp-if');
 var uglify = require('gulp-uglify');
 var minifyCSS = require('gulp-clean-css');
 var useref = require('gulp-useref');
+var imagemin = require('gulp-imagemin');
 var browserSync = require('browser-sync').create();
 
 gulp.task('default', function() {
@@ -27,9 +28,13 @@ gulp.task('build', ['clean'], function() {
 
   // images
   gulp.src('src/img/**/*.+(png|jpg|gif|svg)')
+  .pipe(imagemin([imagemin.optipng({optimizationLevel: 5})], {verbose: true}))
   .pipe(gulp.dest('build/img/'));
+
+  // favicon
   gulp.src('src/favicon.png')
-  .pipe(gulp.dest('build'))
+  .pipe(imagemin())
+  .pipe(gulp.dest('build'));
 
   // html, css and js
   gulp.src('src/index.html')
