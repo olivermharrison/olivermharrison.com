@@ -119,3 +119,9 @@ button:focus {
   display: table-cell;
   vertical-align: middle;
 }
+
+
+
+.circle {
+  border-radius: 50%;
+}

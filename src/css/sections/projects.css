@@ -18,7 +18,7 @@
 .project img {
   float: left;
   min-width: 7em;
-  border-radius: 50%;
+  max-width: 100px;
 }
 
 .project-text {
