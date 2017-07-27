@@ -34,3 +34,21 @@ nav > a:visited {
 
   }
 }
+
+.word-in-view span {
+    transition: opacity 250ms;
+    opacity: 0.5;
+    color: white;
+}
+.word-in-view span:nth-child(0)  { transition-delay:  150ms }
+.word-in-view span:nth-child(2)  { transition-delay:  220ms }
+.word-in-view span:nth-child(3)  { transition-delay:  180ms }
+.word-in-view span:nth-child(4)  { transition-delay:  150ms }
+.word-in-view span:nth-child(5)  { transition-delay:  160ms }
+.word-in-view span:nth-child(6)  { transition-delay:  180ms }
+.word-in-view span:nth-child(7)  { transition-delay:  150ms }
+.word-in-view span:nth-child(8)  { transition-delay:  160ms }
+
+.word-in-view span.active-letter {
+  opacity: 1;
+}
