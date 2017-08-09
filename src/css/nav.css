@@ -10,13 +10,13 @@ header {
   color: #ececec;
 
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-
-
 }
 
 nav {
   padding-top: 0.2rem;
 }
+
+.nav-offset {padding-top: 20vh;}
 
 .name {
   font-size: 1.5em;
