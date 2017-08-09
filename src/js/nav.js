@@ -25,7 +25,7 @@ function updateLetters() {
     var targetElementID = word.getAttribute('data-target-id');
 
     if (targetElementID === null) {
-      console.loh("No target ID defined!");
+      console.log("No target ID defined!");
       return;
     }
     //var targetElement = document.getElementById(targetElementID);
