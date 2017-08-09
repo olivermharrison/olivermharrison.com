@@ -3,11 +3,11 @@ header {
   top: 0;
   width: 100%;
 
-  background: linear-gradient(rgb(40, 42, 60), rgba(62, 62, 62, 0.95));
+  background: linear-gradient(to left,#a1a6a9,#2c3e50);
   font-size: 2rem;
 
   height:20vh;
-  color: #ececec;
+  color: #ccc;
 
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
