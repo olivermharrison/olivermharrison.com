@@ -7,12 +7,14 @@ var WIN_HEIGHT = window.innerHeight;
 var windowTop = document.body.scrollTop;
 var windowBottom = windowTop + WIN_HEIGHT;
 
-updateLetters();
-
-window.onscroll = function(){
+window.addEventListener('load', function() {
   updateLetters();
-};
+}, false);
 
+
+window.addEventListener('scroll', function(e) {
+  updateLetters();
+});
 
 function updateLetters() {
   windowTop = document.body.scrollTop;
@@ -65,11 +67,11 @@ function getPortionInView(sectionID) {
     return {top:0, bottom:Math.floor((windowBottom - sectionTop)/sectionHeight*100)};
   }
   // above
-  else if (sectionBottom < windowTop) {
+  else if (sectionBottom <= windowTop) {
     return {top:100, bottom:100};
   }
   // below
-  else if (sectionTop > windowBottom) {
+  else if (sectionTop >= windowBottom) {
     return {top:0, bottom:0};
   }
   // inside
