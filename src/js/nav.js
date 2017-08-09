@@ -25,9 +25,14 @@ function updateLetters() {
     var targetElementID = word.getAttribute('data-target-id');
 
     if (targetElementID === null) {
-      console.error("No target ID defined!");
+      console.loh("No target ID defined!");
+      return;
     }
     //var targetElement = document.getElementById(targetElementID);
+    if (document.getElementById(targetElementID) === null) {
+      console.log("Section " + targetElementID + " is null!");
+      return;
+    }
     var inView = getPortionInView(targetElementID);
 
     var letters = word.children;
