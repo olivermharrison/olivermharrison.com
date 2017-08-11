@@ -17,7 +17,7 @@ window.addEventListener('scroll', function(e) {
 });
 
 function updateLetters() {
-  windowTop = document.body.scrollTop;
+  windowTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
   windowBottom = windowTop + WIN_HEIGHT;
 
   var words = document.querySelectorAll('.word-in-view');
