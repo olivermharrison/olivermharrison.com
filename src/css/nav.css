@@ -7,13 +7,13 @@ header {
   font-size: 2rem;
 
   height:20vh;
-  color: #ccc;
+  color: #dcdada;
 
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
 nav {
-  padding-top: 0.2rem;
+  padding: 0.2rem;
 }
 
 .nav-offset {padding-top: 20vh;}
@@ -21,6 +21,7 @@ nav {
 .name {
   font-size: 1.5em;
   text-transform: uppercase;
+  padding:0.2em;
 }
 
 nav > a {
