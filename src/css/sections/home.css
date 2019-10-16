@@ -5,8 +5,9 @@
 
 .jumbo {
     background-color: #f7f7f7;
-    padding: 1rem;
+    padding: 4rem;
     border-radius: 1rem;
+    box-shadow: inset 0px 0px 27px -3px #00000012;
 }
 
 .jumbo > h1 {

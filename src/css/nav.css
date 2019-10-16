@@ -3,7 +3,7 @@ header {
   top: 0;
   width: 100%;
 
-  background: linear-gradient(to left,#a1a6a9,#2c3e50);
+  background: linear-gradient(to left,rgb(74, 123, 152),rgb(44, 62, 80));
   box-shadow: inset 0px 0px 30px -5px rgba(0, 0, 0, 0.64);
   font-size: 2rem;
 
