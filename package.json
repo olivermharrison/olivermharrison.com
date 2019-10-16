@@ -6,6 +6,12 @@
   "dependencies": {
     "gulp": "^3.9.1"
   },
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "deploy": "yarn build && firebase deploy --only hosting"
+  },
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
