@@ -1,6 +1,4 @@
 
-var offset = 177;
-
 var DOC_HEIGHT = document.body.scrollHeight;
 var WIN_HEIGHT = window.innerHeight;
 
@@ -19,9 +17,6 @@ window.addEventListener('scroll', function(e) {
 function updateLetters() {
   windowTop = document.body.scrollTop || document.documentElement.scrollTop || window.pageYOffset || 0;
   windowBottom = windowTop + WIN_HEIGHT;
-
-  var bg = "linear-gradient(to left, rgba(48, 63, 80, " + (1 - (windowTop/document.body.scrollHeight)/7) + "), #2c3e50)";
-  document.getElementById('header').style.background= bg;
 
   var words = document.querySelectorAll('.word-in-view');
   words.forEach(function(word) {
@@ -52,8 +47,6 @@ function updateLetters() {
     }
   });
 }
-
-
 
 
 function getPortionInView(sectionID) {
