@@ -16,9 +16,30 @@
 }
 
 .project img {
-  float: left;
-  min-width: 7em;
-  max-width: 100px;
+  max-width: 90px;
+}
+
+.project-container {
+}
+
+h3 {
+  position: sticky;
+  top: 20vh;
+  padding: 2rem;
+  background: white;
+  position: sticky;
+  top: 20vh;
+  padding: 2rem;
+  background: rgba(56, 83, 114, 0.08);
+  border-radius: 0.5rem;
+  background-color: rgb(247, 247, 247);
+  box-shadow: inset 0px 0px 27px -3px #00000012;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.3rem;
 }
 
 .project-text {
