@@ -7,22 +7,25 @@ header {
   box-shadow: inset 0px 0px 30px -5px rgba(0, 0, 0, 0.64);
   font-size: 2rem;
 
-  height:20vh;
+  height: 20vh;
   color: #dcdada;
 
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  z-index: 1;
 }
 
 nav {
   padding: 0.2rem;
 }
 
-.nav-offset {padding-top: 20vh;}
+.nav-offset {
+  padding-top: 20vh;
+}
 
 .name {
   font-size: 1.5em;
   text-transform: uppercase;
-  padding:0.2em;
+  padding: 0.2em;
 }
 
 nav > a {
@@ -37,23 +40,38 @@ nav > a:visited {
 /* Rules for tablets and bigger viewports */
 @media (min-width: 768px) {
   header {
-
   }
 }
 
 .word-in-view span {
-    transition: opacity 250ms;
-    opacity: 0.5;
-    color: white;
+  transition: opacity 250ms;
+  opacity: 0.5;
+  color: white;
 }
-.word-in-view span:nth-child(0)  { transition-delay:  150ms }
-.word-in-view span:nth-child(2)  { transition-delay:  220ms }
-.word-in-view span:nth-child(3)  { transition-delay:  180ms }
-.word-in-view span:nth-child(4)  { transition-delay:  150ms }
-.word-in-view span:nth-child(5)  { transition-delay:  160ms }
-.word-in-view span:nth-child(6)  { transition-delay:  180ms }
-.word-in-view span:nth-child(7)  { transition-delay:  150ms }
-.word-in-view span:nth-child(8)  { transition-delay:  160ms }
+.word-in-view span:nth-child(0) {
+  transition-delay: 150ms;
+}
+.word-in-view span:nth-child(2) {
+  transition-delay: 220ms;
+}
+.word-in-view span:nth-child(3) {
+  transition-delay: 180ms;
+}
+.word-in-view span:nth-child(4) {
+  transition-delay: 150ms;
+}
+.word-in-view span:nth-child(5) {
+  transition-delay: 160ms;
+}
+.word-in-view span:nth-child(6) {
+  transition-delay: 180ms;
+}
+.word-in-view span:nth-child(7) {
+  transition-delay: 150ms;
+}
+.word-in-view span:nth-child(8) {
+  transition-delay: 160ms;
+}
 
 .word-in-view span.active-letter {
   opacity: 1;
