@@ -13,12 +13,14 @@ I really need to upgrade to Gulp 4...
 
 ## Running Locally
 
+use node v11
 ```
 yarn serve
 ```
 
 ## Deploying
 
+use node v16
 ```
 yarn deploy
 ```
